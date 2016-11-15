@@ -9,6 +9,7 @@ gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
+gem 'bcrypt'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -46,6 +47,7 @@ group :test do
 end
 
 group :development do
+  gem 'rails_layout'
   gem 'web-console'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
     gem 'listen', '~> 3.0.5'
